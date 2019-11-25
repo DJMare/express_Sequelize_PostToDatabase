@@ -95,7 +95,7 @@ VS CODE
 
 (23) In the views folder, create a actors.hbs file.: ![Create actors hbs file in views folder (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504714-3bb85780-0ef3-11ea-8780-6d91d692bc8b.JPG)
 
-(24) Add HTML form and add code to show the names of the actors in the actors.hbs file.: 
+(24) Add HTML form and add code to show the names of the actors in the actors.hbs file.: ![Add HTML form to add actor and code to view list of actors in actors hbs file in views folder (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504727-52f74500-0ef3-11ea-99ad-a7d667fbb6d6.JPG)
 
 (25) Add a get() route for /actors and post() route for /actor to the routes/index.js file.: 
 
