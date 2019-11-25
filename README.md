@@ -54,9 +54,10 @@ COMMAND PROMPT
 
 VS CODE
 
-(13) Navigate to the routes/index.js file.: 
+(13) Navigate to the routes/index.js file.: ![Open index js file (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504612-753c9300-0ef2-11ea-8704-d2d9393547f7.JPG)
 
-(14) Require mysql2 and models in routes/index.js file: 
+(14) Require mysql2 and models in routes/index.js file:. ![Require mysql2 in index js file (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504617-884f6300-0ef2-11ea-82f6-a3e153bbc261.JPG)
+
 
 
 COMMAND PROMPT
