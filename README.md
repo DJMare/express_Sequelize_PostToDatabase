@@ -19,15 +19,15 @@ COMMAND PROMPT
 
     npm install express-generator -g
 
-(5) Enter the following command to generate the Express starter app. This will set the view to use Handlebars and will name the app express_Sequelize_RunningQueries_QueryBasedOnOperators: 
+(5) Enter the following command to generate the Express starter app. This will set the view to use Handlebars and will name the app express_Sequelize_: 
 
-    express --view=hbs express_Sequelize_RunningQueries_QueryBasedOnOperators
+    express --view=hbs express_Sequelize_
 
-(6) Once the process is complete, navigate into the express_Sequelize_RunningQueries_QueryBasedOnOperators directory: 
+(6) Once the process is complete, navigate into the express_Sequelize_ directory: 
 
-    cd express_Sequelize_RunningQueries_QueryBasedOnOperators
+    cd express_Sequelize_
     
-(7) Now in the express_Sequelize_RunningQueries_QueryBasedOnOperators directory, run the following: 
+(7) Now in the express_Sequelize_ directory, run the following: 
 
     npm install
 
@@ -35,7 +35,7 @@ COMMAND PROMPT
 
     npm install -g nodemon
     
-(9) Install Nodemon as a devDependency in the package.json file within the express_Sequelize_RunningQueries_QueryBasedOnOperators directory:
+(9) Install Nodemon as a devDependency in the package.json file within the express_Sequelize_ directory:
 
     npm install -save-dev nodemon
     
@@ -54,9 +54,9 @@ COMMAND PROMPT
 
 VS CODE
 
-(13) Navigate to the routes/index.js file.: ![Open index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394456-108ef780-0caa-11ea-81de-9b8088a6f01d.JPG)
+(13) Navigate to the routes/index.js file.: 
 
-(14) Require mysql2 in routes/index.js file: ![Require mysql2 index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394492-2997a880-0caa-11ea-867d-3e5ff3203a1d.JPG)
+(14) Require mysql2 and models in routes/index.js file: 
 
 
 COMMAND PROMPT
@@ -72,7 +72,7 @@ COMMAND PROMPT
 
 VS CODE
 
-(17) Open config/config.json file and change settings to connect to the database: ![Add database connection info in config- config json file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394551-4d5aee80-0caa-11ea-841a-3ad6f15c42bc.JPG)
+(17) Open config/config.json file and change settings to connect to the database: 
 
 COMMAND PROMPT
 
@@ -90,17 +90,17 @@ COMMAND PROMPT
     
 VS CODE
 
-(21) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application: ![Require models in app js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394634-8bf0a900-0caa-11ea-8f9f-3983784128df.JPG)
+(21) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application: 
 
-(22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: ![Add models sequelize sync  in app js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394671-adea2b80-0caa-11ea-839d-102a6bdf3dfc.JPG)
+(22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
 
-(23) In the views folder, create a actors.hbs file and add code to show the names of the actors.: 
+(23) In the views folder, create a actors.hbs file.:
 
-(24) In the routes/index.js file, require models, Sequelize and Sequelize Operators.: ![Require Sequelize and set Sequelize Op to a variable index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394773-f9043e80-0caa-11ea-8a96-6dfb133a814e.JPG)
+(24) Add HTML form and add code to show the names of the actors in the actors.hbs file.: 
 
-(25) Add a get() route for /specificActor, /actor/:id and /actors to the routes/index.js file.: ![Add get() route for actors index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394823-19cc9400-0cab-11ea-9704-d9886d44a3c8.JPG)
+(25) Add a get() route for /actors and post() route for /actor to the routes/index.js file.: 
 
-(26) Update the /actors route with queries using the operators.: ![Add Op variables in get() route actors in  index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69503568-ccd60100-0ee8-11ea-961f-bddd422229e0.JPG)
+(26) Update the /actors route with queries using the operators.: 
 
 COMMAND PROMPT
 
@@ -110,7 +110,7 @@ COMMAND PROMPT
 
 WEB BROWSER
 
-(27) Navigate to localhost3000/actors to view the actor based on the queries in the get() routes using the operators.: ![Navigate to localhost3000-actors to view list of actors (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69503575-f2fba100-0ee8-11ea-9706-e58f0cedb4b0.JPG)
+(27) Navigate to localhost3000/actors to view the actor : 
 
 NODEMON NOTE
 
