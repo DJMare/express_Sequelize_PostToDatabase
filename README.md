@@ -113,7 +113,7 @@ WEB BROWSER
 
 (29) Fill out form on the localhost3000/actors page.: ![Navigate to localhost3000-actors and fill out form (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504802-e29cf380-0ef3-11ea-9132-033c2b97ad58.JPG)
 
-(30) SUbmit completed form and scroll down to the bottom of the list to view new actor added to list.: 
+(30) SUbmit completed form and scroll down to the bottom of the list to view new actor added to list.: ![Navigate to localhost3000-actors and submit form then scroll to bottom of page to see new entry (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504814-f9434a80-0ef3-11ea-9509-0e02a1f6ce75.JPG)
 
 NODEMON NOTE
 
