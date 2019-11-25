@@ -100,17 +100,21 @@ VS CODE
 
 (25) Add a get() route for /actors and post() route for /actor to the routes/index.js file.: 
 
-(26) Update the /actors route with queries using the operators.: 
+(26) Open the models/actors.js file. Add auto increment to the actor_id.: 
 
 COMMAND PROMPT
 
-(26) Run nodemon in terminal to see DB sync'd up: 
+(27) Run nodemon in terminal to see DB sync'd up: 
 
     nodemon
 
 WEB BROWSER
 
-(27) Navigate to localhost3000/actors to view the actor : 
+(28) Navigate to localhost3000/actors to view the form and list of actors.: 
+
+(29) Fill out form on the localhost3000/actors page.:
+
+(30) SUbmit completed form and scroll down to the bottom of the list to view new actor added to list.: 
 
 NODEMON NOTE
 
