@@ -97,7 +97,7 @@ VS CODE
 
 (24) Add HTML form and add code to show the names of the actors in the actors.hbs file.: ![Add HTML form to add actor and code to view list of actors in actors hbs file in views folder (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504727-52f74500-0ef3-11ea-99ad-a7d667fbb6d6.JPG)
 
-(25) Add a get() route for /actors and post() route for /actor to the routes/index.js file.: 
+(25) Add a get() route for /actors and post() route for /actor to the routes/index.js file.: ![Add actors get() route and actor post() route in index js file (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504745-7ae6a880-0ef3-11ea-934d-d678f61c52b5.JPG)
 
 (26) Open the models/actors.js file. Add auto increment to the actor_id.: 
 
