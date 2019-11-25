@@ -58,26 +58,24 @@ VS CODE
 
 (14) Require mysql2 and models in routes/index.js file:. ![Require mysql2 in index js file (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504617-884f6300-0ef2-11ea-82f6-a3e153bbc261.JPG)
 
-
-
 COMMAND PROMPT
 
 (15) Install Sequelize CLI commands globally onto your computer: 
 
     npm install -g sequelize-cli
 
-(16) Create necessary sequelize folders and filed in project:
+(16) Create necessary sequelize folders and files in project.:
 
     sequelize init
     
 
 VS CODE
 
-(17) Open config/config.json file and change settings to connect to the database: 
+(17) Open config/config.json file and change settings to connect to the database.: ![Update database connection info in config-config json file (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504640-b59c1100-0ef2-11ea-919d-5f129e1ae1bd.JPG) 
 
 COMMAND PROMPT
 
-(18) Install mysql2 globally so sequelize CLI will be able to connect to the database:
+(18) Install mysql2 globally so sequelize CLI will be able to connect to the database.:
 
     npm install -g mysql2
     
