@@ -111,7 +111,7 @@ WEB BROWSER
 
 (28) Navigate to localhost3000/actors to view the form and list of actors.: ![Navigate to localhost3000-actors to view form and list of actors (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504779-b7b29f80-0ef3-11ea-930a-dd41ab5672f0.JPG)
 
-(29) Fill out form on the localhost3000/actors page.:
+(29) Fill out form on the localhost3000/actors page.: ![Navigate to localhost3000-actors and fill out form (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504802-e29cf380-0ef3-11ea-9132-033c2b97ad58.JPG)
 
 (30) SUbmit completed form and scroll down to the bottom of the list to view new actor added to list.: 
 
