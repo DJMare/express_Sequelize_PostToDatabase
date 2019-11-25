@@ -99,7 +99,7 @@ VS CODE
 
 (25) Add a get() route for /actors and post() route for /actor to the routes/index.js file.: ![Add actors get() route and actor post() route in index js file (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504745-7ae6a880-0ef3-11ea-934d-d678f61c52b5.JPG)
 
-(26) Open the models/actors.js file. Add auto increment to the actor_id.: 
+(26) Open the models/actors.js file. Add auto increment to the actor_id.: ![Add autoIncrement to actorId in actor js file in models folder (Sequelize_PostToDatabase)](https://user-images.githubusercontent.com/35668707/69504761-9b166780-0ef3-11ea-9493-e670ae23d4be.JPG)
 
 COMMAND PROMPT
 
