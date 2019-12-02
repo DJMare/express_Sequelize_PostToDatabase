@@ -1,4 +1,4 @@
-# express_Sequelize_PostToDatabase
+# Sequelize_PostToDatabase
 An Express app utilizing sequelize to connect to mySQL and posting to the database. 
 
 COMMAND PROMPT
